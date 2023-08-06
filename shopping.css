@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background: radial-gradient(ellipse farthest-side at 76% 77%, rgba(245, 228, 212, 0.25) 4%, rgba(255, 255, 255, 0) calc(4% + 1px)), radial-gradient(circle at 76% 40%, #fef6ec 4%, rgba(255, 255, 255, 0) 4.18%), linear-gradient(135deg, #ff0000 0%, #000036 100%), radial-gradient(ellipse at 28% 0%, #ffcfac 0%, rgba(98, 149, 144, 0.5) 100%), linear-gradient(180deg, #cd6e8a 0%, #f5eab0 69%, #d6c8a2 70%, #a2758d 100%); background-blend-mode: normal, normal, screen, overlay, normal;
+    color: while;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width:100px;
+}
+.logo1{
+    background-image: url("logo1.png");
+    background-size:cover;
+    width: 120%;
+    height: 100%;
+    
+    
+}
+.border{
+    border:2px solid transparent ;
+}
+.border:hover{
+    border: 2px solid #427aa1;
+}
+/**box2**/
+.adr-1{
+    color: #3c15bc;
+    font-size: 15px;
+    margin: 5px;
+}
+.adr-2{
+    font-size: 20px;
+    margin: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+/**box 3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width:620px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+.search-item{
+    background-color: aqua;
+
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(225, 225, 100);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/**box 4**/
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/**box6**/
+.nav-cart i{
+font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**panel**/
+.panel{
+    height: 40px;
+    background: linear-gradient(125deg, #ECFCFF 0%, #ECFCFF 40%, #B2FCFF calc(40% + 1px), #B2FCFF 60%, #5EDFFF calc(60% + 1px), #5EDFFF 72%, #3E64FF calc(72% + 1px), #3E64FF 100%);
+    display: flex;
+    color: blue;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+/**hero section**/
+.hero-section{
+    background-image: url("logo3.jpeg");
+    background-size: auto;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+
+}
+.hero-msg{
+    border: 2px solid #427aa1;
+    background: linear-gradient(115.58deg, #00FC19 0%, #1700A4 100.22%), radial-gradient(92.72% 100% at 50% 0%, #EBFFCB 0%, #651200 100%), radial-gradient(92.72% 100% at 50% 0%, #FAFF00 0%, #820000 100%), radial-gradient(109.21% 213.32% at 100% 0%, #FF4D00 0%, #00C2FF 100%), linear-gradient(127.43deg, #D50000 0%, #7856FF 100%);
+    background-blend-mode: lighten, overlay, lighten, screen, normal;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom:20px ;   
+    border-radius: 4px;
+    box-shadow: 1px 2px 20px rgb(162, 181, 122);
+
+}
+.hero-msg a{
+    color:#007185;
+}
+/**shop section**/
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    background: linear-gradient(219.46deg, #110036 27.63%, #170059 100%), linear-gradient(219.46deg, #FFFFFF 27.63%, #19004E 100%), radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(337.69deg, #DC52FF 8.44%, #00BDBD 84.19%), linear-gradient(222.34deg, #FFFFFF 12.99%, #008171 87.21%), linear-gradient(150.76deg, #0015D5 15.35%, #000B6C 89.57%);
+    background-blend-mode: screen, overlay, overlay, difference, difference, difference, normal;  
+}
+.box {
+    height: 400px;
+    width: 270px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 15px;
+    background: linear-gradient(123deg, #FFFCAC 0%, #FFFFFF 67%), linear-gradient(180deg, #D8D8D8 0%, #6B0000 100%), linear-gradient(142deg, #F9F5F0 0%, #F9F5F0 33%, #F2EAD3 calc(33% + 1px), #F2EAD3 56%, #F4991A calc(56% + 1px), #F4991A 62%, #321313 calc(62% + 1px), #321313 100%);
+    background-blend-mode: multiply, overlay, normal;
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px #a5be00;
+   
+
+}
+.box-img{
+
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #679436;
+
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+ 
+
+}
+.box-content p{
+    color:#007185;
+}
+
+/**footer**/
+
+.foot-panel1{
+    background: linear-gradient(219.46deg, #110036 27.63%, #170059 100%), linear-gradient(219.46deg, #FFFFFF 27.63%, #19004E 100%), radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(337.69deg, #DC52FF 8.44%, #00BDBD 84.19%), linear-gradient(222.34deg, #FFFFFF 12.99%, #008171 87.21%), linear-gradient(150.76deg, #0015D5 15.35%, #000B6C 89.57%);
+    background-blend-mode: screen, overlay, overlay, difference, difference, difference, normal;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    border: 2px solid #dddd52;
+}
+.foot-panel2{
+    background: radial-gradient(100% 225% at 100% 0%, #FAFF00 0%, #000000 100%), linear-gradient(235deg, #DB00FF 0%, #000000 100%), linear-gradient(45deg, #241E92 0%, #241E92 40%, #5432D3 40%, #5432D3 50%, #7B6CF6 50%, #7B6CF6 70%, #E5A5FF 70%, #E5A5FF 100%), linear-gradient(180deg, #01024E 0%, #01024E 43%, #543864 43%, #543864 62%, #8B4367 62%, #8B4367 80%, #FF6464 80%, #FF6464 100%);
+    background-blend-mode: overlay, hard-light, overlay, normal;
+    color:white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid #dddd52;   
+}
+ul{
+    margin-top: 20px;
+
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px ;
+    color: #dddddd;
+}
+.foot-panel3{
+    background: linear-gradient(219.46deg, #110036 27.63%, #170059 100%), linear-gradient(219.46deg, #FFFFFF 27.63%, #19004E 100%), radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), linear-gradient(337.69deg, #DC52FF 8.44%, #00BDBD 84.19%), linear-gradient(222.34deg, #FFFFFF 12.99%, #008171 87.21%), linear-gradient(150.76deg, #0015D5 15.35%, #000B6C 89.57%);
+    background-blend-mode: screen, overlay, overlay, difference, difference, difference, normal;
+    color: white;
+    border-top: 0.5px solid;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #dddd52;
+}
+.logo{
+    background-image: url("logo1.png");
+    background-size: cover;
+    height: 50px;
+    width:10%;
+}
+.foot-panel4{
+    background: linear-gradient(106.89deg, #AE9D70 0%, #7154C4 91.58%), linear-gradient(127.43deg, #FFF500 0%, #ADFF00 100%), linear-gradient(307.27deg, #FAFF00 0.37%, #04BC00 100%), radial-gradient(100% 147.24% at 0% 31%, #00D1FF 0%, #698400 100%), radial-gradient(100% 140% at 100% 0%, #5ED500 0%, #2200AA 100%);
+    background-blend-mode: overlay, difference, difference, difference, normal;
+    color:white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    border: 2px solid #dddd52;
+}
+.pages{
+padding-top:25px ;
+}
+.copyright{
+    padding-top:5px ;
+}
+
+#circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #427aa1;
+    position: fixed;
+    background: linear-gradient(45deg, #C7F5FE 10%, #C7F5FE 40%, #FCC8F8 40%, #FCC8F8 60%, #EAB4F8 60%, #EAB4F8 65%, #F3F798 65%, #F3F798 90%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    animation: 10s ease-in-out infinite alternate-reverse circleMovement;
+    box-shadow: 0px 2px 20px #d5f285;
+}
+
+@keyframes circleMovement {
+    0% {
+        top: 0;
+        left: 95%;
+    }
+    100% {
+        top: 95%;
+        left: 95%;
+    }
+}
+
+  
+
+  
+      
+
+
+
+
